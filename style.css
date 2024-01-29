@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1B4A50;
+}
+
+
+.navbar-brand img {
+    width: 8rem;
+    padding-left: 2rem;
+
+}
+
+nav {
+    background-image: url("/img/bg-nav.svg");
+    height: 128.08px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbarNav {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.navbar-nav .nav-item {
+    list-style: none;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.navbar-nav .nav-item:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2);
+}
+
+ .nav-link{
+    color: #1B4A50;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #008080;
+    transition: color 0.2s ease-in-out;
+}
+
+.perfil {
+    width: 100%;
+    padding-top: 4rem;
+}
+
+h1{
+    font-size: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 1.5rem;
+    color: #daf5f8;
+
+}
+p {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+    color: #daf5f8;
+}
+
+.btn{
+    margin-left: 21rem;
+
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    color: #daf5f8;
+    text-decoration: none;
+    background-color: #1B474D;
+    font-size: 18px;
+    font-style: bold;
+    box-shadow: 1px 1px 2px #00FFFF;
+}
+
+.btn:hover {
+    background-color: #daf5f8;
+    color: #1B4A50;
+    box-shadow: 1px 1px 2px #00FFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #daf5f8;
+}
+
+
+
+#ferramentas{
+    text-align: center;
+}
+
+#ferramentas img{
+    padding: 2rem;
+}
+
+#redes-sociais{
+    text-align: center;
+}
+
+#redes-sociais img{
+    padding: 2rem;
+}
+
+#contato {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 4rem;
+    
+}
+
+
+#contato h1{
+    text-align: center;
+    
+}
+
+.mb-3{
+   max-width: 600px;
+   width: 100%;
+    
+}
+
+#exampleFormControlInput1{
+    border: 1.5px solid #00FFFF;
+
+}
+
+#exampleFormControlTextarea1{
+    border: 1.5px solid #00FFFF;
+
+}
+
+
+label{
+    color: #daf5f8;
+    font-size: 18px;
+    font-style: bold;
+    
+}
+
+placeholder{
+    color: #7a9fa3;
+    font-size: 0.5rem;
+}
+
+.btn-submit {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    color: #daf5f8;
+    text-decoration: none;
+    background-color: #1B474D;
+    font-size: 18px;
+    font-style: bold;
+    box-shadow: 1px 1px 2px #00FFFF;
+}
+
+.btn-submit:hover {
+    background-color: #daf5f8;
+    color: #1B4A50;
+    box-shadow: 1px 1px 2px #00FFFF;
+}
+
+.mb-3-bnt{
+    padding-top:2rem;
+
+}
+
+footer {
+    background-color:#173f45;
+    height: 100px;
+    text-align: center;
+    padding-top:2rem;
+    padding-bottom: 0rem;
+    color: #daf5f8;
+    font-size: 14px;
+}
+
+footer img{
+    padding-left: 1rem;
+}
+
+.euimg{
+    width: 250px;
+    height: 250px;
+    
+}
+
+
+.sobre{
+    text-align: center;
+    margin-top: 4rem;
+    
+}
+
+.sobre img{
+    padding: 2rem;
+}
+
+.sobre h1, p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #daf5f8;;
+}
+
+span{
+    color: #0af0f0;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
